@@ -1,0 +1,4 @@
+eps_255,photo,orig_sim_to_identity,prot_sim_to_identity,orig_sim_to_scene,prot_sim_to_scene,orig_face_detected,prot_face_detected
+8,cheerful-smiling-blond-handsome-young-man-wearing-black-t-shirt-grey-wall,0.9129,0.7915,-0.0201,-0.0023,True,True
+8,happy-young-woman-standing-isolated-white-wall,0.8618,0.6583,0.1066,0.0752,True,True
+8,portrait-white-man-isolated,0.9437,0.771,0.027,0.0553,True,True

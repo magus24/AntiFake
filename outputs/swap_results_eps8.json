@@ -1,0 +1,38 @@
+[
+  {
+    "photo": "cheerful-smiling-blond-handsome-young-man-wearing-black-t-shirt-grey-wall",
+    "eps_255": 8,
+    "prot_source_available": true,
+    "swap_seconds": 1.9,
+    "orig_face_detected": true,
+    "orig_sim_to_identity": 0.9129,
+    "orig_sim_to_scene": -0.0201,
+    "prot_face_detected": true,
+    "prot_sim_to_identity": 0.7915,
+    "prot_sim_to_scene": -0.0023
+  },
+  {
+    "photo": "happy-young-woman-standing-isolated-white-wall",
+    "eps_255": 8,
+    "prot_source_available": true,
+    "swap_seconds": 1.93,
+    "orig_face_detected": true,
+    "orig_sim_to_identity": 0.8618,
+    "orig_sim_to_scene": 0.1066,
+    "prot_face_detected": true,
+    "prot_sim_to_identity": 0.6583,
+    "prot_sim_to_scene": 0.0752
+  },
+  {
+    "photo": "portrait-white-man-isolated",
+    "eps_255": 8,
+    "prot_source_available": true,
+    "swap_seconds": 1.99,
+    "orig_face_detected": true,
+    "orig_sim_to_identity": 0.9437,
+    "orig_sim_to_scene": 0.027,
+    "prot_face_detected": true,
+    "prot_sim_to_identity": 0.771,
+    "prot_sim_to_scene": 0.0553
+  }
+]

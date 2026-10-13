@@ -1,0 +1,4 @@
+photo,eps_255,steps,work_size,eot_copies,seed,det_score,attack_seconds,surrogate_self,surrogate_cos,psnr_db,ssim,lpips,linf_255,mask_coverage,arcface_clean,arcface_jpeg75,arcface_resize05,gauss_clean,gauss_psnr_db,uniform_clean,uniform_psnr_db,reject@0.28,reject@0.4
+cheerful-smiling-blond-handsome-young-man-wearing-black-t-shirt-grey-wall,8.0,12,160,2,0,0.8288,5.92,1.0,0.5312,42.6061,0.995256,0.004406,8,0.3968,0.8575,0.8633,0.8547,0.9928,43.4404,0.9939,41.8436,False,False
+happy-young-woman-standing-isolated-white-wall,8.0,12,160,2,0,0.8025,5.87,1.0,0.5035,45.2702,0.996737,0.001684,8,0.2096,0.731,0.7406,0.7296,0.9902,46.3396,0.9858,44.736,False,False
+portrait-white-man-isolated,8.0,12,160,2,0,0.9005,6.1,1.0,0.6799,41.1164,0.994726,0.005006,8,0.4834,0.8391,0.8363,0.8365,0.9929,42.2885,0.9916,40.6901,False,False

@@ -1,0 +1,16 @@
+photo,eps_255,steps,work_size,eot_copies,seed,det_score,attack_seconds,surrogate_self,surrogate_cos,psnr_db,ssim,lpips,linf_255,mask_coverage,arcface_clean,arcface_jpeg75,arcface_resize05,gauss_clean,gauss_psnr_db,uniform_clean,uniform_psnr_db,reject@0.28,reject@0.4
+cheerful-smiling-blond-handsome-young-man-wearing-black-t-shirt-grey-wall,8.0,40,160,2,0,0.8288,12.7,1.0,0.2266,40.3213,0.995248,0.004758,8,0.3968,0.7864,0.7852,0.7907,0.9928,43.4404,0.9939,41.8436,False,False
+cheerful-smiling-blond-handsome-young-man-wearing-black-t-shirt-grey-wall,12.0,40,160,2,0,0.8288,13.11,1.0,-0.1456,37.0687,0.991041,0.009788,12,0.3968,0.7036,0.7188,0.7099,0.9841,39.9625,0.9839,38.3627,False,False
+cheerful-smiling-blond-handsome-young-man-wearing-black-t-shirt-grey-wall,16.0,40,160,2,0,0.8288,13.97,1.0,-0.3882,34.7992,0.986341,0.015434,16,0.3968,0.6293,0.6246,0.618,0.9765,37.4901,0.9723,35.889,False,False
+cheerful-smiling-blond-handsome-young-man-wearing-black-t-shirt-grey-wall,24.0,40,160,2,0,0.8288,13.42,1.0,-0.5563,32.0697,0.976175,0.026892,24,0.3968,0.4159,0.424,0.4169,0.9538,34.0058,0.95,32.4036,False,False
+cheerful-smiling-blond-handsome-young-man-wearing-black-t-shirt-grey-wall,32.0,40,160,2,0,0.8288,18.96,1.0,-0.6359,30.2869,0.964517,0.041259,32,0.3968,0.3067,0.3166,0.2852,0.941,31.5397,0.9308,29.9375,False,True
+happy-young-woman-standing-isolated-white-wall,8.0,40,160,2,0,0.8025,18.96,1.0,0.1698,43.1294,0.99656,0.001659,8,0.2096,0.6804,0.6757,0.6788,0.9902,46.3396,0.9858,44.736,False,False
+happy-young-woman-standing-isolated-white-wall,12.0,40,160,2,0,0.8025,19.22,1.0,-0.1607,40.03,0.993602,0.003487,12,0.2096,0.5839,0.5858,0.5846,0.9786,42.8734,0.9683,41.2656,False,False
+happy-young-woman-standing-isolated-white-wall,16.0,40,160,2,0,0.8025,19.07,1.0,-0.3515,37.8933,0.99075,0.005651,16,0.2096,0.5562,0.5565,0.5591,0.9664,40.4175,0.951,38.8102,False,False
+happy-young-woman-standing-isolated-white-wall,24.0,40,160,2,0,0.8025,19.11,1.0,-0.5126,35.3164,0.98448,0.010429,24,0.2096,0.4662,0.4626,0.4581,0.9409,36.9733,0.9145,35.3656,False,False
+happy-young-woman-standing-isolated-white-wall,32.0,40,160,2,0,0.8025,19.15,1.0,-0.6287,33.4817,0.978144,0.015608,32,0.2096,0.4032,0.4015,0.3862,0.9046,34.5474,0.9002,32.9408,False,False
+portrait-white-man-isolated,8.0,40,160,2,0,0.9005,19.16,1.0,0.3809,39.2717,0.994642,0.005284,8,0.4834,0.6865,0.6885,0.6984,0.9929,42.2885,0.9916,40.6901,False,False
+portrait-white-man-isolated,12.0,40,160,2,0,0.9005,19.29,1.0,0.0214,36.0058,0.989207,0.011515,12,0.4834,0.6214,0.6371,0.6161,0.9874,38.7969,0.9844,37.1955,False,False
+portrait-white-man-isolated,16.0,40,160,2,0,0.9005,19.24,1.0,-0.2107,33.8052,0.983112,0.017547,16,0.4834,0.583,0.5773,0.565,0.9789,36.3201,0.9753,34.717,False,False
+portrait-white-man-isolated,24.0,40,160,2,0,0.9005,19.31,1.0,-0.47,30.8737,0.970392,0.031531,24,0.4834,0.4338,0.4513,0.4325,0.9483,32.8704,0.9418,31.271,False,False
+portrait-white-man-isolated,32.0,40,160,2,0,0.9005,19.26,1.0,-0.5911,28.8167,0.956226,0.047463,32,0.4834,0.3893,0.3989,0.3741,0.9165,30.4607,0.9174,28.8692,False,True

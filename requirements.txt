@@ -1,0 +1,37 @@
+# AntiFake-Face dependencies, pinned to what this MVP was actually measured on.
+#
+# READ THIS BEFORE INSTALLING. The usual pins do not work together:
+#   facenet-pytorch needs numpy < 2
+#   recent scipy needs     numpy >= 2
+# and insightface imports skimage.transform.SimilarityTransform, so a broken
+# numpy/scipy combination makes `import insightface` fail outright. The set
+# below is the combination that runs.
+#
+# Also: installing scikit-image from source needs a C compiler. Prefer wheels.
+
+numpy==1.26.4
+scipy==1.13.1
+scikit-image==0.26.0
+
+torch==2.2.2
+torchvision==0.17.2
+
+# Attack surrogates and the held-out evaluator.
+facenet-pytorch==2.6.0
+insightface==2.0
+onnx==1.23.1
+onnxruntime==1.30.0
+
+# Face-swap model weights are NOT on PyPI. Download once:
+#   https://huggingface.co/ezioruan/inswapper_128.onnx/resolve/main/inswapper_128.onnx
+# into models/inswapper_128.onnx (554 MB). Steps 2, 3, 5, 6, 7 work without it.
+
+opencv-python==4.10.0.84
+pillow==10.2.0
+lpips==0.1.4
+
+# Interface, tables, chart.
+gradio==6.29.0
+pandas==3.0.6
+matplotlib==3.11.2
+tabulate==0.10.0

@@ -1,0 +1,39 @@
+# --- Environments ---------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# --- Python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Node / frontend build tooling ---------------------------------------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# --- OS / editor ----------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# --- Local scratch and debug output --------------------------------------
+# Intermediate debug logs from local runs; not part of the published results.
+outputs/_scratch/
+
+# Large binary weights and evaluation artifacts are tracked with Git LFS
+# (see .gitattributes), not ignored:
+#   models/*.onnx        inswapper_128 face-swap weights
+#   outputs/**/*.npy     per-photo perturbation/face masks

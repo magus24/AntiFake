@@ -1,0 +1,32 @@
+# Runtime dependencies, pinned to the versions this MVP was built and tested on.
+# torch/torchvision are installed from the PyPI wheels. A CPU-only wheel works
+# unchanged -- the engine resolves its device at runtime.
+
+fastapi==0.141.1
+uvicorn[standard]==0.54.0
+python-multipart==0.0.32
+pydantic==2.13.5
+pillow==12.3.0
+numpy==2.5.3
+opencv-python-headless==5.0.0.93
+torch==2.14.0
+torchvision==0.29.0
+
+# Phase 1 evaluation framework only. Neither is imported by the API or the
+# protection engine, so the product runs without them; the benchmark reports
+# LPIPS as null and skips the CLIP adapter if they are absent.
+lpips==0.1.4
+open_clip_torch==3.3.0
+
+# Phase 2 probe adapters. Optional in exactly the same sense as the block
+# above: neither the API nor the protection engine imports them, so the product
+# runs without them. Without them the benchmark still runs every arm and reports
+# the face, detection and VLM probes as skipped, with the reason attached.
+facenet-pytorch==2.6.0
+ultralytics==8.4.160
+
+# Development / verification only
+pytest==9.1.1
+httpx==0.28.1
+ruff==0.16.9
+mypy==2.3.1
